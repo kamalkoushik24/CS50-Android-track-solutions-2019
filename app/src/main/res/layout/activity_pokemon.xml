@@ -42,8 +42,24 @@
         android:layout_gravity="center_horizontal"
         android:text=""
         android:onClick="toggleCatch"
-        android:id="@+id/crbutton">
+        android:id="@+id/crbutton"/>
 
-    </androidx.appcompat.widget.AppCompatButton>
-    
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:contentDescription=""
+        android:id="@+id/image"/>
+
+    <TextView
+        android:id="@+id/pokemon_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingLeft="15dp"
+        android:textAlignment="textStart"
+        android:textSize="16sp" />
+
+
 </LinearLayout>
