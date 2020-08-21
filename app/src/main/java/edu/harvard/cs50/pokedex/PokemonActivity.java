@@ -116,7 +116,7 @@ public class PokemonActivity extends AppCompatActivity {
                     checkCatchStatus();
 
                     int id = response.getInt("id");
-                    descURL = "https://pokeapi.co/pokemon-species/" + id;
+                    descURL = "https://pokeapi.co/api/v2/pokemon-species/" + id;
                     getDescription();
 
 
